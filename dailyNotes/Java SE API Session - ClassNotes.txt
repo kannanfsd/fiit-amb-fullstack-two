@@ -1,0 +1,65 @@
+Java SE API Session
+Day1 1Hour Introduction
+Day2 2Hour 
+
+open command prompt --> java --version
+download OpenJDK - https://jdk.java.net/archive/
+
+create a new repository on the command line
+echo "# fiit-amb-fullstack-two" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kannanfsd/fiit-amb-fullstack-two.git
+git push -u origin main
+
+Day3
+----
+Keywords - reserved identifier
+Structure Frame: class, abstract, interface, enum, record
+Primitive DataType: boolean, byte, short, int, long, float, double, char
+Statement: if, else, do, while, for, switch, case, break, continue, return
+AccessSpecifier: public, private, protected, default, static, final
+BooleanVale: true, false
+
+DataType: 1. primitive [using the above 8 keywords] 
+          2. reference [except the above 8 keywords if you're initiate any variable like ref. or instance variable]
+
+class Student {
+  int regNo;
+  String name;
+  void displayDetails() {
+   System.out.println("Reg.No: "+regNo);
+   System.out.println("Name: "+name);
+ }
+}
+
+Student.java
+
+Java Execution Life-cycle
+--------------------------
+
+Source Code			FileName.java		Welcome.java
+|  compile the source code -> javac FileName.java	javac Welcome.java
+Byte code 			FileName.class		Welcome.class
+|  execute the byte code   -> java FileName		java Welcome
+JVM
+|
+Operating System
+|
+Result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
