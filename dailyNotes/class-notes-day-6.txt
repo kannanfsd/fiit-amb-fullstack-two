@@ -1,0 +1,49 @@
+class Employee{
+  int a;
+  float b;
+  String name;
+  void display() {
+   System.out.println("My name is "+name);
+  }
+}
+Create an object for Employee class
+------------------------------------
+Employee employee = new Employee();
+|	 | 	  |    |       |__constructor method
+|        |        |    |__allocate memory
+|        |        |__initialized value
+|        |__variable/object name
+|__class name
+
+employee.name = "Padmapriya";
+employee.display();
+|	 |	  |__ method invoke
+|	 |__method
+|__Employee object
+
+Encapsulation [POJO - Plain Old Java Object] ->Spring container-> Bean
+--------------
+class Student{
+  private int regId;	  // data hiding
+  public int getRegId() { // accessor/getter method  -> get+variableName
+    return regId;
+  }
+  public void setRegId(int regId) {   //mutator/setter -> set+variableName
+    this.regId = regId;
+  }
+}
+Exercise:
+100 Student - prepare mark-list/graduation report
+              |__ type [validate offline]	- return
+	      |__ age [validate >15] 		- continue		
+	      |__ 5 subject marks
+		  |__validate each should be >50 [result pass/fail]
+		     |__total
+		        |__avg 
+			   |__grade [A/B/C/D//E as failed.]
+
+break		-			
+continue	-
+return		-
+
+
