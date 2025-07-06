@@ -46,4 +46,13 @@ break		-
 continue	-
 return		-
 
+static 
+------
+class Employee {
+  variables;	static primitive/ref
+  methods;	static user-defined
+}
+Employee e1 = new Employee();--> Heap memory 
+Employee e2 = new Employee();
+Employee e3 = new Employee();
 
